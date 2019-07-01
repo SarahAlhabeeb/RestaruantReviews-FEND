@@ -386,9 +386,6 @@ nav h1 a {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 768px) {
-  /* .inside header {
-    position: relative;
-  } */
   
   .inside #breadcrumb {
     overflow: hidden;
@@ -400,13 +397,6 @@ nav h1 a {
     font-size: 16px;
   }
 
-  /* .inside #map-container {
-    top: 0;
-    position: relative;
-    width: 100%;
-    height: 270px;
-  } */
-
   .inside #map-container {
     top: 130;
     position: relative;
@@ -414,15 +404,7 @@ nav h1 a {
     height: 270px;
   }
 
-
-  /* #restaurant-container, #reviews-container {
-    top: 0;
-    width: 100%;
-    margin: auto;
-    padding: 40px 40px 30px;
-  } */
-
-   #restaurant-container, #reviews-container {
+  #restaurant-container, #reviews-container {
     position: relative;
     margin: 0;
   } 
@@ -453,7 +435,7 @@ nav h1 a {
 
 }
 
-/* Extra large devices (large tablets, laptops and desktops, 1024px and up) */
+/* Extra large devices (large tablets, laptops and desktops) */
 @media (min-width: 769px) {
 
   #breadcrumb li {

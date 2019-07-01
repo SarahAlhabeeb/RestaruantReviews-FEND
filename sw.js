@@ -1,3 +1,7 @@
+let cacheName = 'v1';
+
+// Call Install Event
+
 self.addEventListener('install', function (e) {
   e.waitUntil(
     caches.open('Restaraunt Reviews').then(function (cache) {
@@ -27,28 +31,29 @@ self.addEventListener('install', function (e) {
   );
 });
 
-self.addEventListener('activate', function (event) {
-  var cacheKeeplist = ['v2'];
+// Call Activate Event
 
+self.addEventListener('activate', function (event) {
+  console.log('Service Worker: Activated');
+  // Remove unwanted caches
   event.waitUntil(
-    caches.keys().then(function (keyList) {
-      return Promise.all(keyList.map(function (key) {
-        if (cacheKeeplist.indexOf(key) === -1) {
-          return caches.delete(key);
+    caches.keys().then(function (cacheNames) {
+      return Promise.all(cacheNames.map(function (cache) {
+        if (cache !== cacheName) {
+          console.log('Service Worker: Clearing Old Cache');
+          return caches.delete(cache);
         }
       }));
     })
   );
 });
 
+// Call Fetch Event
+
 self.addEventListener('fetch', function (event) {
-
   console.log(event.request.url);
-
   event.respondWith(
-
     caches.match(event.request).then(function (response) {
-
       return response || fetch(event.request);
     })
   );
