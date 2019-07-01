@@ -19,7 +19,7 @@ Load this link in your browser https://sarahalhabeeb.github.io/RestuarantProject
 - Visit the site: `http://localhost:8000` in the browser.
 
 #### References
-> Thanks to [stearruda](https://github.com/stearruda/) who I visited his site [here](https://stearruda.github.io/fend-restaurant-reviews-app/), to see the final result and compare it to mine.
+> Thanks to [stearruda](https://github.com/stearruda/) who I visited her site [here](https://stearruda.github.io/fend-restaurant-reviews-app/), to see the final result and compare it to mine.
 
 
 
