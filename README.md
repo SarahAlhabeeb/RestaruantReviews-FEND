@@ -9,7 +9,7 @@
 For the **Restaurant Reviews** project, I converted a provided static webpage, that had lot of issues, to a mobile-ready web application. The static code was lacking accessibility so my job was to convert the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to create a seamless offline experience for the users.
 
 ### How to run
-Load this link in your browser https://sarahalhabeeb.github.io/RestuarantProject-FEND/
+Load this link in your browser: [here](https://sarahalhabeeb.github.io/RestaruantReviews-FEND/)
 
 #### How to run locally
 - Download the zipped file or clone the project
