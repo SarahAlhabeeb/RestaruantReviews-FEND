@@ -13,13 +13,13 @@ Load this link in your browser https://sarahalhabeeb.github.io/RestuarantProject
 
 #### How to run locally
 - Download the zipped file or clone the project
-- In a terminal:
+- In a terminal, change directory to the project folder, then:
 * For Python 2.x: `python -m SimpleHTTPServer 8000` 
 * For Python 3.x: `python3 -m http.server 8000`.
 - Visit the site: `http://localhost:8000` in the browser.
 
 #### References
-Thanks to [stearruda] (https://github.com/stearruda/) who I had visit his site [here](https://stearruda.github.io/fend-restaurant-reviews-app/), to see the final result and compare it to mine.
+> Thanks to [stearruda](https://github.com/stearruda/) who I visited his site [here](https://stearruda.github.io/fend-restaurant-reviews-app/), to see the final result and compare it to mine.
 
 
 
