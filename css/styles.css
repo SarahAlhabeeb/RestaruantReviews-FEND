@@ -87,6 +87,7 @@ nav h1 a {
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
+    text-align: left;
 }
 
 /* Display list items side by side */
@@ -179,7 +180,7 @@ nav h1 a {
   min-width: 100px;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #3397DB;
   font-family: Arial,sans-serif;
   font-size: 14pt;
