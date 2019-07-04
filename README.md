@@ -15,4 +15,5 @@ For the **Restaurant Reviews** project, I converted a provided static webpage, t
 * For Python 3.x: `python3 -m http.server 8000`.
 - Visit the site: `http://localhost:8000` in the browser.
 
-
+### The starter code
+provided from Udacity: [here](https://github.com/udacity/mws-restaurant-stage-1)
